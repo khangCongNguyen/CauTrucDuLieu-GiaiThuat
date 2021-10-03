@@ -15,10 +15,10 @@ public class NguyenTo {
             }
         }
     
-    if(ok==true){
-        System.out.println(""+soNguyen+" là số nguyên tố");
-    }else{
-        System.out.println(""+soNguyen+" không phải là số nguyên tố");
+        if(ok==true){
+            System.out.println(""+soNguyen+" là số nguyên tố");
+         }else{
+            System.out.println(""+soNguyen+" không phải là số nguyên tố");
     }
   }
 }
