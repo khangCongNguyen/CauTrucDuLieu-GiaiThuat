@@ -14,7 +14,6 @@ public class NguyenTo {
                 break;
             }
         }
-    
         if(ok==true){
             System.out.println(""+soNguyen+" là số nguyên tố");
          }else{
