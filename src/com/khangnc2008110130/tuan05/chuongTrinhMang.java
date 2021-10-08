@@ -1,9 +1,9 @@
 package com.khangnc2008110130.tuan05;
-
+import java.util.Scanner;
 public class chuongTrinhMang {
     public static void main(String[] args) {
         int []arr ={3,5,7,9};
-    
+        Scanner varInput =new Scanner(System.in);
         int newElemen=8;// phân tử mới
         int size =arr.length;//số phần tử của mạng 
         
@@ -20,10 +20,12 @@ public class chuongTrinhMang {
         for(int x:newarr){
             System.out.println(x);
         }
+        newarrtwo=varInput.nextInt();
         int []newarrtwo =new int [5];//tạo mạng mới 
         for(int i=0;i<size;i++){
             newarrtwo[i]=arr[i];
         }
+      
     
         newarrtwo[0]=newElemen;// gán giá trị mới vào đầu mạng 
         System.out.println("in mạng mới có phần tử nằm ở đầu mạng  ");
