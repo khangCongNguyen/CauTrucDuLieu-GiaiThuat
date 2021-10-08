@@ -20,6 +20,17 @@ public class chuongTrinhMang {
         for(int x:newarr){
             System.out.println(x);
         }
+        int []newarrtwo =new int [5];//tạo mạng mới 
+        for(int i=0;i<size;i++){
+            newarrtwo[i]=arr[i];
+        }
+    
+        newarrtwo[0]=newElemen;// gán giá trị mới vào đầu mạng 
+        System.out.println("in mạng mới có phần tử nằm ở đầu mạng  ");
+        for(int x :newarrtwo){
+            System.out.println(x);
+        }
     }
+
     
 }
