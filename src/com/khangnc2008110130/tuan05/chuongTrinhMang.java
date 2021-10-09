@@ -32,6 +32,9 @@ public class chuongTrinhMang {
         for(int x :newarrtwo){
             System.out.println(x);
         }
+        
+
+        
     }
 
     
