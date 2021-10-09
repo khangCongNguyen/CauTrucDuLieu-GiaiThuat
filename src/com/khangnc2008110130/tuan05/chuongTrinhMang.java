@@ -20,7 +20,7 @@ public class chuongTrinhMang {
         for(int x:newarr){
             System.out.println(x);
         }
-        newarrtwo=varInput.nextInt();
+      
         int []newarrtwo =new int [5];//tạo mạng mới 
         for(int i=0;i<size;i++){
             newarrtwo[i]=arr[i];
