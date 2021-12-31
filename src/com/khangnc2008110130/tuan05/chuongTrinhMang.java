@@ -16,7 +16,7 @@ public class chuongTrinhMang {
             System.out.println(x);
         }
         newarr[size]=newElemen;// thêm giá trị mới vào mạng ở vtri cuối mạng
-        System.out.println("in mạng mới ");
+        System.out.println("in mạng mới .");
         for(int x:newarr){
             System.out.println(x);
         }
